@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1408909381 source:c:\users\jeremy\desktop\life_simulation\life_simulation\displayobject.cpp
+	"DisplayObject.h"
+
+1408972866 source:c:\users\jeremy\desktop\life_simulation\life_simulation\readobject.cpp
+	"ReadObject.h"
+
+1408973336 source:c:\users\jeremy\desktop\life_simulation\life_simulation\simulationcontroller.cpp
+	"SimulationController.h"
+
+1408900821 source:c:\users\jeremy\desktop\life_simulation\life_simulation\cell.cpp
+	"Cell.h"
+
+1408973530 c:\users\jeremy\desktop\life_simulation\life_simulation\cell.h
+	<ostream>
+	<iostream>
+
+1408972912 c:\users\jeremy\desktop\life_simulation\life_simulation\readobject.h
+	<iostream>
+	<string>
+	<fstream>
+	"Cell.h"
+
+1408909164 c:\users\jeremy\desktop\life_simulation\life_simulation\displayobject.h
+	<iostream>
+	"cell.h"
+
+1408973336 c:\users\jeremy\desktop\life_simulation\life_simulation\simulationcontroller.h
+	"ReadObject.h"
+	"DisplayObject.h"
+	"Cell.h"
+
