@@ -1,10 +1,10 @@
 #include "ReadObject.h"
 
 void ReadObject::readFile(std::string fileName,
-                            cell *cellArray[][80])
+                            cell cellArray[][80])
 {
 
-    cell *holder;
+    cell holder;
     std::ifstream fileData;
     fileData.open(fileName.c_str());
 
@@ -14,19 +14,16 @@ void ReadObject::readFile(std::string fileName,
         {
             if (fileData.get() == '1')
             {
-                holder = new cell;
-                holder->setLifeState(true);
+                holder.setLifeState(true);
                 cellArray[height][width] = holder;
-                holder = NULL;
             }
             if(fileData.get()=='0')
             {
-                holder = new cell;
-                holder->setLifeState(false);
+                holder.setLifeState(false);
                 cellArray[height][width]=holder;
-                holder=NULL;
             }
         }
+        fileData.get();
     }
 
     fileData.close();

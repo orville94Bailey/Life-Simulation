@@ -30,3 +30,38 @@
 	"DisplayObject.h"
 	"Cell.h"
 
+1409179007 source:c:\users\jeremy\documents\github\life-simulation\life_simulation\life_simulation\displayobject.cpp
+	"DisplayObject.h"
+
+1409179007 c:\users\jeremy\documents\github\life-simulation\life_simulation\life_simulation\displayobject.h
+	<iostream>
+	"cell.h"
+
+1409168569 c:\users\jeremy\documents\github\life-simulation\life_simulation\life_simulation\cell.h
+	<ostream>
+	<iostream>
+
+1409179249 source:c:\users\jeremy\documents\github\life-simulation\life_simulation\life_simulation\readobject.cpp
+	"ReadObject.h"
+
+1409178841 c:\users\jeremy\documents\github\life-simulation\life_simulation\life_simulation\readobject.h
+	<iostream>
+	<string>
+	<fstream>
+	"Cell.h"
+
+1409171510 source:c:\users\jeremy\documents\github\life-simulation\life_simulation\life_simulation\cell.cpp
+	"Cell.h"
+
+1409179442 source:c:\users\jeremy\documents\github\life-simulation\life_simulation\life_simulation\simulationcontroller.cpp
+	"SimulationController.h"
+
+1409179338 c:\users\jeremy\documents\github\life-simulation\life_simulation\life_simulation\simulationcontroller.h
+	"ReadObject.h"
+	"DisplayObject.h"
+	"Cell.h"
+	<cstdlib>
+
+1409170860 source:c:\users\jeremy\documents\github\life-simulation\life_simulation\life_simulation\lifesimulation.cpp
+	"SimulationController.h"
+

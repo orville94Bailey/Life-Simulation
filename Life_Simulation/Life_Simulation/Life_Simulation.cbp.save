@@ -35,6 +35,7 @@
 		<Unit filename="Cell.h" />
 		<Unit filename="DisplayObject.cpp" />
 		<Unit filename="DisplayObject.h" />
+		<Unit filename="LifeSimulation.cpp" />
 		<Unit filename="ReadObject.cpp" />
 		<Unit filename="ReadObject.h" />
 		<Unit filename="SimulationController.cpp" />

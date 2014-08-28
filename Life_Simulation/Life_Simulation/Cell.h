@@ -13,9 +13,11 @@ public:
     void setLifeState(bool );
     ~cell();
 
-    void friend operator<<(const std::ostream&,const cell&);
+
 private:
     bool lifeState;
 };
+
+std::ostream& operator<<( std::ostream&,cell&);
 
 #endif // CELL_H_INCLUDED

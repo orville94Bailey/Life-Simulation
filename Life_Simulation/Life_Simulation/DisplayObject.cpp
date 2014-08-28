@@ -1,6 +1,6 @@
 #include "DisplayObject.h"
 
-void DisplayObject::displayMap(cell window[][80])
+void DisplayObject::displayMap(cell window[25][80])
 {
     for(int height = 0; height<25; height++)
     {

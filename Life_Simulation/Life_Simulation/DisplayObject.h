@@ -7,7 +7,7 @@
 class DisplayObject
 {
 public:
-    void displayMap(cell[][80]);
+    void displayMap(cell[25][80]);
 
 private:
 

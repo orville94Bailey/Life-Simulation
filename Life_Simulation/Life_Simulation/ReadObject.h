@@ -9,7 +9,7 @@
 class ReadObject
 {
 public:
-    void readFile(std::string, cell*[][80]);
+    void readFile(std::string, cell[][80]);
 
 private:
 

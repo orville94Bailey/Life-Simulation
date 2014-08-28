@@ -15,21 +15,22 @@ void cell::setLifeState(bool newState)
     lifeState = newState;
 }
 
-void cell::operator<<(const std::ostream&,const cell&)
+std::ostream& operator<<( std::ostream& outStream,cell& cellCheck)
 {
-    if(lifeState)
+    if(!cellCheck.isDead())
     {
-        std::cout<<'0';
+        outStream<<"1";
     }
     else
     {
-        std::cout<<'1';
+        outStream<<"0";
     }
+    return outStream;
 }
 
 bool cell::isDead()
 {
-    return lifeState;
+    return !lifeState;
 }
 
 cell::~cell()
