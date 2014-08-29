@@ -20,6 +20,7 @@ void arraySwap();
 void populateCell(int width,int height);
 void killCell(int width,int height);
 void cleanArray();
+void cleanNextArray();
 
 cell windowArray[25][80], nextWindow[25][80];
 

@@ -196,6 +196,7 @@ void SimulationController::run()
         output.displayMap(windowArray);
         checkNeighbors();
         arraySwap();
+        cleanNextArray();
         system("pause");
     }
 }
@@ -214,3 +215,15 @@ void SimulationController::cleanArray()
     }
 }
 
+void SimulationController::cleanNextArray()
+{
+    cell deadCell;
+    deadCell.setLifeState(0);
+    for(int height=0;height<25;height++)
+    {
+        for(int width=0;width<80;width++)
+        {
+            nextWindow[height][width]=deadCell;
+        }
+    }
+}
